@@ -1,0 +1,1078 @@
+{
+  "urls": {
+    "s": [
+      {
+        "PulseFlagPhoto": "https://and-photo.pulse.weatherbug.net/data/photos/v1/flagphoto"
+      },
+      {
+        "PulsePhotoShare": "https://and-share.pulse.weatherbug.net/sharing/v1"
+      },
+      {
+        "KindleMapUrl": "https://www.weatherbug.com/maps/?"
+      },
+      {
+        "HurricaneCenter": "https://cms.weatherbug.com/deskwxweb/mobile/Hurricane-mobile.aspx"
+      },
+      {
+        "LightningNearestURL": "https://and-lx.pulse.weatherbug.net/data/lightning/v1/spark"
+      },
+      {
+        "BaseLightningNearestURL": "https://and-lx.pulse.weatherbug.net"
+      },
+      {
+        "StoriesURL": "https://and-story.pulse.weatherbug.net/api/stories/v1/byCategories?"
+      },
+      {
+        "StoriesVideoAdUrl": "https://ib.adnxs.com/ptv?id=20278945&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=640&vheight=360&vcontext=1&vframeworks=5&vv=3&appid=com.aws.android"
+      },
+      {
+        "SpotlightURL": "http://cmsmini.weatherbug.com/rest/content/site/en_site_desktop_weather/en-us/all/mobile/Spotlight-4X?columns=DocumentName,ContentType,Image,DocumentGUID,ContentParam&classnames=WB.spotlight_item&OrderBy=NodeOrder&format=JSON&hash=7d20612d973354bd00c7676a29b65ada22b043d0e7de8ba37513cd5fed6494a4"
+      },
+      {
+        "FAQURL": "https://www.weatherbug.com/faq/android?s=mi"
+      },
+      {
+        "TCURL": "https://cms.weatherbug.com/Affiliate/Documents/Mobile/Splash-Screen-Android"
+      },
+      {
+        "SparkUrl": "https://lxapp.weatherbug.net/v2/index.html"
+      },
+      {
+        "LegalBaseURL": "https://and-legal.pulse.weatherbug.net"
+      },
+      {
+        "LegalAuditPath": "/data/legal/v1/audit"
+      },
+      {
+        "TouPath": "/api/legal/policies/v1"
+      },
+      {
+        "PulseNwsAlertsParser": "https://and-alert.pulse.weatherbug.net/data/alerts/v3/alerts"
+      },
+      {
+        "PulseLiveParser": "https://and-obs.pulse.weatherbug.net/api/obs/surface/current/v6/"
+      },
+      {
+        "AlmanacPulseRequest": "https://and-alm.pulse.weatherbug.net/data/almanac/v1"
+      },
+      {
+        "BaseAlmanacPulseRequest": "https://and-alm.pulse.weatherbug.net"
+      },
+      {
+        "PulseTenDayForecastParser": "https://and-for.pulse.weatherbug.net/data/forecasts/v2/daily"
+      },
+      {
+        "PulsePhotoUpload": "https://and-photo.pulse.weatherbug.net/data/photos/submittedphotos/v1/submission"
+      },
+      {
+        "PulsePhotoTags": "https://and-photo.pulse.weatherbug.net/data/photos/v1/tags"
+      },
+      {
+        "PhotoAlbumFeaturedRequest": "https://and-photo.pulse.weatherbug.net/data/photos/v1/featuredalbums"
+      },
+      {
+        "PulseForecastHourlyParser": "https://and-for.pulse.weatherbug.net/api/for/hourly/v5"
+      },
+      {
+        "LocationPulseRequestParser": "https://and-loc.pulse.weatherbug.net/data/locations/v2/location"
+      },
+      {
+        "PulseLocationDataParser": "https://and-loc.pulse.weatherbug.net/data/locations/v3/closestCity"
+      },
+      {
+        "WeatherStationPulseRequest": "https://and-loc.pulse.weatherbug.net/data/locations/v3/stationlist"
+      },
+      {
+        "UVPulseRequest": "https://and-uv.pulse.weatherbug.net"
+      },
+      {
+        "ImageResize": "http://data.mobile.weatherbug.com/ImageResize2.asp"
+      },
+      {
+        "PulseWeatherCameraListParser": "https://and-cam.pulse.weatherbug.net/data/cameras/v2/CameraList?"
+      },
+      {
+        "PulseCameraParser": "https://and-cam.pulse.weatherbug.net/data/cameras/v2/CameraAnimations?"
+      },
+      {
+        "PulseTrafficCameraListParser": "https://and-trffc.pulse.weatherbug.net/data/traffic/v2?"
+      },
+      {
+        "PollenPulseRequest": "https://and-plln.pulse.weatherbug.net/data/lifestyle/pollen/v1/forecast?"
+      },
+      {
+        "CampaignDataRequestNormal": "https://and-cmpn.pulse.weatherbug.net/data/campaign/v2/applicable?"
+      },
+      {
+        "CampaignDataRequestWeWd": "https://cmsmini.weatherbug.com/Mobile/Weekend-Weekday.aspx"
+      },
+      {
+        "CmsMetaDataRequest": "https://cms2.weatherbug.com/rest/customtableitem.encustomtable.customindexes?format=JSON&OrderBy=ItemOrder&hash=8b3ab4d3d6b1a7b42b48b3fd6b2ebd06987b8be42ac87b60afdf6f1957a6ea6b"
+      },
+      {
+        "CurrentBackgroundImageRequest": "https://and-cm.pulse.weatherbug.net/resources/backgroundbylatlong/v1?"
+      },
+      {
+        "WBHEnergyDataRequest": "https://pulse.earthnetworks.com/data/hc/orch/v2/read?"
+      },
+      {
+        "BrandWrapRequest": "http://ads.admarvel.com/fam/javascriptGetAd.php?"
+      },
+      {
+        "PhotoAlbumRecentRequest": "https://and-photo.pulse.weatherbug.net/data/photos/v1/recent"
+      },
+      {
+        "PhotoAlbumLocalRequest": "https://and-photo.pulse.weatherbug.net/data/photos/v1/local"
+      },
+      {
+        "PollenUrl": "http://pollen.com"
+      },
+      {
+        "VideoUrl": "https://https-video.weatherbug.com/video/wxnation/nationaloutlook/latest.mp4"
+      },
+      {
+        "NationalOutlookVideoAdUrl": "https://ib.adnxs.com/ptv?id=20278956&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=640&vheight=360&vcontext=1&vframeworks=5&vv=3&appid=com.aws.android"
+      },
+      {
+        "FeaturedVideoAdUrl": "https://ib.adnxs.com/ptv?id=20278944&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=640&vheight=360&vcontext=1&vframeworks=5&vv=3&appid=com.aws.android"
+      },
+      {
+        "BreakingStoryUrl": "http://www.earthnetworks.com/MediaCenter/PressRelease/tabid/118/newsid513/640/Summer-Weather-Outlook-Issued-by-Earth-Networks---WeatherBug-/Default.aspx"
+      },
+      {
+        "DailyPrecip": "https://and-precip.pulse.weatherbug.net/data/Precip/v1/DailyByLatLon?"
+      },
+      {
+        "MonthlyPrecip": "https://and-precip.pulse.weatherbug.net/data/Precip/v1/MonthlyByLatLon?"
+      },
+      {
+        "YearlyPrecip": "https://and-precip.pulse.weatherbug.net/data/Precip/v1/YearlyByLatLon?"
+      },
+      {
+        "BasePrecipUrl": "https://and-precip.pulse.weatherbug.net"
+      },
+      {
+        "BaseEMSettingUrl": "https://and-em.pulse.weatherbug.net"
+      },
+      {
+        "RegisterAppInstance": "https://and-em.pulse.weatherbug.net/api/em/v4/appinstances?"
+      },
+      {
+        "SignOutRequest": "https://and-em.pulse.weatherbug.net/api/em/v3/auth/signout"
+      },
+      {
+        "LocationGetRequest": "https://and-em.pulse.weatherbug.net/api/em/v4/locations"
+      },
+      {
+        "LocationPostRequest": "https://and-em.pulse.weatherbug.net/api/em/v4/locations"
+      },
+      {
+        "LocationDeleteRequest": "https://and-em.pulse.weatherbug.net/api/em/v4/locations"
+      },
+      {
+        "LocationUpdateRequest": "https://and-em.pulse.weatherbug.net/api/em/v4/locations"
+      },
+      {
+        "RefreshTokenRequest": "https://and-em.pulse.weatherbug.net/api/em/auth/v2/refreshTokens"
+      },
+      {
+        "SaveSettingsRequest": "https://and-em.pulse.weatherbug.net/api/em/users/v2/savesettingsdata"
+      },
+      {
+        "SettingsRequest": "https://and-em.pulse.weatherbug.net/api/em/users/v2/getsettingsdata"
+      },
+      {
+        "ProfileRequest": "https://and-em.pulse.weatherbug.net/api/em/v5/profile"
+      },
+      {
+        "EMLoginUrl": "https://login.weatherbug.com"
+      },
+      {
+        "MapLayerDetailRequest": "https://and-maps.api.weatherbug.net/maps/overlays/v2/metadata?"
+      },
+      {
+        "MapLayerDetailV3Request": "https://and-maps.pulse.weatherbug.net/maps/overlays/v3/metadata?"
+      },
+      {
+        "MapLayerListRequest": "https://and-maps.pulse.weatherbug.net/giv/layers/v1?"
+      },
+      {
+        "GetMapLayerIcons": "https://and-maps.pulse.weatherbug.net/giv/presentation/v2/groupresources?"
+      },
+      {
+        "TileUrl": "https://and-maps.api.weatherbug.net/maps/overlays/tile?"
+      },
+      {
+        "LegendDataRequest": "https://and-maps.pulse.weatherbug.net/giv/presentation/"
+      },
+      {
+        "ClientLoggingRequest": "https://and-clog2.pulse.weatherbug.net/clog/v1/submit?"
+      },
+      {
+        "BaseURL": "https://pulse.earthnetworks.com"
+      },
+      {
+        "BaseURLNotificationsApi": "https://and-push.pulse.weatherbug.net/"
+      },
+      {
+        "PathNotificationsApi": "api/push/v2/notifications"
+      },
+      {
+        "PathNotificationOptionsApi" :"api/push/notificationoptions/v1"
+      },
+      {
+        "BaseURLCards": "https://and-card.pulse.weatherbug.net"
+      },
+      {
+        "PathGetNowCardsApi": "/api/cards/v2/getCards"
+      },
+      {
+        "BaseURLStories": "https://and-story.pulse.weatherbug.net"
+      },
+      {
+        "PathStories": "/api/stories/v1/byCategories"
+      },
+      {
+        "BaseURLClimate": "https://and-clmt.pulse.weatherbug.net"
+      },
+      {
+        "PathDailyDataGriddedByLatLong": "/data/climate/v1/daily/ByLatitudeAndLongitude/gridded"
+      },
+      {
+        "BaseURLHistorical": "https://and-obs.pulse.weatherbug.net"
+      },
+      {
+        "TempestBannerFreeLink": "https://weatherflow.com/weatherbug/?utm_campaign=WeatherBug&utm_source=partner&utm_medium=freebanner"
+      },
+      {
+        "TempestBannerPremiumLink": "https://weatherflow.com/weatherbug/?utm_campaign=WeatherBug&utm_source=partner&utm_medium=paidbanner"
+      },
+      {
+        "TempestLocationManagerLink": "https://weatherflow.com/weatherbug/?utm_campaign=WeatherBug&utm_source=partner&utm_medium=locationslink"
+      },
+      {
+        "TempestLogoLink": "https://weatherflow.com/weatherbug/?utm_campaign=WeatherBug&utm_source=partner&utm_medium=stationsbanner"
+      },
+      {
+        "PathHistoricalObs": "/data/observations/v1/historical/highlowbyproviderandstation"
+      },
+      {
+        "BaseURLAds": "https://and-ads.pulse.weatherbug.net"
+      },
+      {
+        "PathGetAdFreeState": "/api/ads/v1/configuration/GetAdFreeState"
+      },
+      {
+        "BaseURLLocations": "https://and-loc.pulse.weatherbug.net"
+      },
+      {
+        "PathSearchLocation": "/data/locations/v3/location"
+      },
+      {
+        "PathGetStations": "/data/locations/v3/stationlist"
+      },
+      {
+        "BaseContentUrl" : "https://and-con.pulse.weatherbug.net"
+      },
+      {
+        "PathContentApi": "/data/content/v2"
+      },
+      {
+        "BaseAqiUrl": "https://and-aqi.pulse.weatherbug.net"
+      },
+      {
+        "BaseHurricaneUrl": "https://and-hur.pulse.weatherbug.net"
+      },
+      {
+        "HurricanePath": "/api/hurricanes/v1"
+      },
+      {
+        "BaseFireUrl": "https://and-fire.pulse.weatherbug.net"
+      },
+      {
+        "HurricaneLegendUrl": "https://and-maps.pulse.weatherbug.net"
+      },
+      {
+        "HurricaneLegendPath": "/giv/presentation/legenddata"
+      },
+      {
+        "CurrentAqiPath": "/api/aqi/v4"
+      },
+      {
+        "LocationPermissionsVideoURL": "https://content.weatherbug.net/videos/Partnerships/20240101-GENERAL-ONBOARDING-VIDEO-1080p.mp4"
+      },
+      {
+        "ForecastAqiPath": "/api/aqi/v4/forecast"
+      },
+      {
+        "GDPRComplianceUrl": "https://and-legal.pulse.weatherbug.net"
+      },
+      {
+        "GDPRCompliancePath": "/api/legal/compliance/v3"
+      },
+      {
+        "BaseFeaturedVideoUrl": "https://and-con.pulse.weatherbug.net"
+      },
+      {
+        "FeaturedVideoPath": "/api/con/videos/v1"
+      },
+      {
+        "HurricaneNewsStoriesPath" :"/api/stories/v1/hurricane"
+      },
+      {
+        "PathGetCountry": "/api/loc/v3/Country/IPAddress/ME"
+      },
+      {
+        "PathTargettingApi": "/api/ads/targeting/v1/parameters"
+      },
+      {
+        "BasePollenUrl": "https://and-plln.pulse.weatherbug.net"
+      },
+      {
+        "PollenPath": "/data/lifestyle/pollen/v1/forecast"
+      },
+      {
+        "PollenNewsStoriesPath": "/api/stories/v1/byCategories?category=Pollen&recordsLimit=6"
+      },
+      {
+        "BaseUrlCustomSettings": "https://and-em.pulse.weatherbug.net/"
+      },
+      {
+        "CustomSettingsPath": "api/em/v2/customsettings"
+      },
+      {
+          "SETTINGS_BASE_URL": "https://and-em.pulse.weatherbug.net/api/em/v4/settings"
+      },
+      {
+        "WEWDNewsStoriesPath" :"/api/stories/v1/byCategories?category=WEWD&recordsLimit=1"
+      },
+      {
+           "WEWDUrl" :"https://and-wewd.pulse.weatherbug.net"
+      },
+      {
+           "WEWDPath" :"/api/wewd/v1/forecast"
+      },
+      {
+        "ColdFluNewsStoriesPath": "/api/stories/v1/byCategories?category=Cold-and-Flu"
+      },
+      {
+        "FireNewsStoriesPath" :"/api/stories/v1/byCategories?category=Fire-stories&includeVideos=true&recordsLimit=6"
+      },
+      {
+            "AQIStoriesPath" :"/api/stories/v1/byCategories?category=air-quality&includeVideos=false&recordsLimit=6"
+      },
+      {
+           "BaseTrafficCamsUrl": "https://and-trffc.pulse.weatherbug.net"
+      },
+      {
+           "TrafficCamsPath": "/api/con/videos/v1"
+      },
+      {
+           "TrafficCamsDetailPath": "/api/con/videos/v1"
+      },
+      {
+           "BaseWeatherCamsUrl": "https://and-cam.pulse.weatherbug.net"
+      },
+      {
+          "BaseRoadForecastUrl": "https://and-road.pulse.weatherbug.net/"
+      },
+      {
+           "WeatherCamsPath": "/data/cameras/v2/CameraList"
+      },
+      {
+           "WeatherCamsDetailPath": "/data/cameras/v2/CameraAnimations"
+      },
+      {
+        "BaseURLCommuter": "https://and-maps.api.weatherbug.net"
+      },
+      {
+        "BaseArityOptInUrl": "https://and-cmmtr.pulse.weatherbug.net"
+      },
+      {
+        "ArityEnrollmentPath": "/api/commuter/arity/v1"
+      },
+      {
+        "BaseFeatureDetailsUrl": "https://and-maps.pulse.weatherbug.net"
+      },
+      {
+        "FeatureDetailsPath": "/api/giv/featuredetails/v1/layerId={layerId}/slotId={slotId}/featureId={featureId}"
+      },
+      {
+        "ContentSettingsV3Path": "/data/content/settings/v3/appinstanceid="
+      },
+      {
+        "BaseURLPhotos": "https://and-photo.pulse.weatherbug.net"
+      },
+      {
+        "AdConfigUrl": "https://and-ads.pulse.weatherbug.net/api/ads/config/v2?"
+      },
+      {
+        "ForecastBaseUrl": "https://and-for.pulse.weatherbug.net"
+      },
+      {
+        "MapsBaseUrl": "https://and-maps.pulse.weatherbug.net"
+      },
+      {
+        "TileBaseUrl": "https://and-maps.api.weatherbug.net"
+      },
+      {
+        "UserSettingsPath": "api/em/v4/settings"
+      },
+      {
+        "NowConditionsPath": "/api/obs/nowconditions/v2/"
+      },
+      {
+        "MyAccountBaseUrl": "https://myaccount.weatherbug.com"
+      },
+      {
+        "DeleteAccountPath": "/delete/index.html"
+      },
+      {
+        "OutdoorSportsBaseUrl": "https://and-otdr.pulse.weatherbug.net"
+      },
+      {
+        "OutdoorSportsStoriesPath": "/api/stories/v1/byCategories?category=outdoor-sports&includeVideos=false&recordsLimit=6"
+      },
+      {
+        "PrivacyPolicyUrl": "https://www.weatherbug.com/legal/privacy/"
+      },
+      {
+        "OAuthIssuer": "https://auth.weatherbug.com"
+      },
+      {
+        "OAuthClientId": "mobile_pc"
+      },
+      {
+        "OAuthRedirectUri": "com.weatherbug.mobile.auth://oauthredirect"
+      },
+      {
+        "OAuthAccessTokenScopes": "[\"openid\",\"profile\",\"email\",\"offline_access\"]"
+      },
+      {
+        "OAuthDisableSSOLoginView": "{\"disablessologinview\":\"true\"}"
+      },
+      {
+        "OAuthRequestTimeoutSeconds": "5"
+      },
+      {
+        "OAuthRefreshToken": "https://auth.weatherbug.com/connect/token"
+      },
+      {
+        "BaseURLStations": "https://and-stn.pulse.weatherbug.net/"
+      },
+      {
+        "stationListApi" : "api/stn/weatherstations/v5"
+      },
+      {
+        "BaseUrlPWSObs" : "https://and-obs.pulse.weatherbug.net"
+      },
+      {
+        "DISNEY_WEATHER_PARTNERSHIP_URL" : "https://disneysynclink.com/weathermonitoring/"
+      },
+      {
+        "HURRICANE_OUTLOOK_IMAGE_URL_ATLANTIC_BASIN": "https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_at.png"
+      },
+      {
+        "HURRICANE_OUTLOOK_IMAGE_URL_CENTRAL_PACIFIC_BASIN": "https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_cp.png"
+      },
+      {
+        "HURRICANE_OUTLOOK_IMAGE_URL_EASTERN_PACIFIC_BASIN": "https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_ep.png"
+      },
+      {
+        "SURVEY_URL" : "https://wss.pollfish.com"
+      },
+      {
+        "SURVEY_PATH" : "/v2/device/register/true"
+      },
+      {
+        "SubscriptionTokenPath" : "/api/em/subscriptions/v1"
+      },
+      {
+        "TransactionCompleteApiPath" : "/api/em/subscriptions/link/v1"
+      },
+      {
+        "SurveysTermsUrl": "https://policies.weatherbug.net/documents/policies/TermsOfUse/Pollfish/us-en/PROMOTIONS-TOU-US-EN-20231106-00.html"
+      },
+      {
+        "PLACER_AI_BASE_URL": "https://wbpl.weatherbug.net/v1"
+      }
+    ]
+  },
+  "keys": {
+    "s": [
+      {
+        "FeedbackEmailAddress": "androidsupport@weatherbug.com"
+      },
+      {
+        "FeedbackEmailSubject": "WeatherBug Android %s Feedback"
+      },
+      {
+        "SubscriptionFeedbackEmailSubject": "WeatherBug Android %s Subscription Feedback"
+      },
+      {
+        "FeedbackPhoneRateAppSubjectPostFix": "*"
+      },
+      {
+        "ExodusClientId": "30001003"
+      },
+      {
+        "GaAccountElite": "UA-20687678-53"
+      },
+      {
+        "GaAccount": "UA-20687678-54"
+      },
+      {
+        "GaAccountTab": "UA-20687678-74"
+      },
+      {
+        "GaAccountEliteTab": "UA-20687678-75"
+      },
+      {
+        "GaAccountAdFreePhone": "UA-20687678-103"
+      },
+      {
+        "GaAccountAdFreeTablet": "UA-20687678-104"
+      },
+      {
+        "GaAdEventsTracking": "Off"
+      },
+      {
+        "AD_REQUEST_INTERVAL_MAPS": "3000"
+      },
+      {
+        "GaSampling": "10"
+      },
+      {
+        "FF_NewLocationUI": "on"
+      },
+      {
+        "FF_PAS": "on"
+      },
+      {
+        "NATIVE_AD_PROVIDER": "Yahoo"
+      },
+      {
+        "BANNER_AD_PROVIDER":"AppNexus"
+      },
+      {
+        "FF_LICENSE_CHECK":"OFF"
+      },
+      {
+        "FF_BRANDWRAP":"ON"
+      },
+      {
+        "Now_Embedded_Ads_Enabled": "ON"
+      },
+      {
+        "FF_MapsOverlaysMetadataV3": "ON"
+      },
+      {
+        "FF_GDPR": "ON"
+      },
+      {
+        "FF_GT_LOCATION_SDK": "ON"
+      },
+      {
+        "FF_ENABLE_LOCATION_UPDATES": "OFF"
+      },
+      {
+        "FF_BATTERY_OPTIMIZATION": "ON"
+      },
+      {
+        "IGNORE_BATTERY_OPTIMIZATION_PERMISSION_SHOW_DELAY_DAYS": "0,1,2"
+      },
+      {
+        "FF_ENABLE_WEATHERBUG_V2": "OFF"
+      },
+      {
+        "FF_ENABLE_CLIENT_LOGGING": "ON"
+      },
+      {
+        "NUMBER_OF_ADS_ON_NOW": "3"
+      },
+      {
+        "GAP_IN_ADS_ON_NOW": "3"
+      },
+      {
+        "FF_ALLOW_LOCATION_CHANGE_ON_AQI" :"OFF"
+      },
+      {
+        "FF_DELAYED_LOAD_BANNER_AD": "OFF"
+      },
+      {
+        "FF_FEATURED_VIDEOS_PRE_ROLLED_ADS_ENABLED": "ON"
+      },
+      {
+        "EnabledSpotlightCardVisibilityEvents": "ON"
+      },
+      {
+        "Hourly_Embedded_Ads_Enabled": "ON"
+      },
+      {
+        "SET_NOW_TAB_INTERVAL_MIN": "15"
+      },
+      {
+        "FF_TaboolaNowFeedEnabled": "ON"
+      },
+      {
+        "FF_TaboolaTenDayFeedEnabled": "ON"
+      },
+      {
+        "FF_TaboolaHourlyFeedEnabled": "ON"
+      },
+      {
+        "FF_TaboolaNowWidgetEnabled": "ON"
+      },
+      {
+        "FF_TaboolaHourlyWidgetEnabled": "ON"
+      },
+      {
+        "FF_TaboolaTabletEnabled": "ON"
+      },
+      {
+        "FF_FeaturedVideoAutoPlayEnabled": "OFF"
+      },
+      {
+        "FF_ENABLE_KOCHAVA": "ON"
+      },
+      {
+        "FF_ENABLE_KOCHAVA_PUSH": "ON"
+      },
+      {
+        "KOCHAVA_GUID_FREE": "koweatherbug-free-android-weatherbug-j5duy5lw"
+      },
+      {
+        "KOCHAVA_GUID_ELITE": "koweatherbug-elite-android-weatherbug-o39qkr"
+      },
+      {
+        "FF_KOCHAVA_TESTING_ENABLED": "OFF"
+      },
+      {
+        "KOCHAVA_GUID_FREE_TESTING": "kowb-free-android-weatherbug-development-4cfp"
+      },
+      {
+        "KOCHAVA_GUID_ELITE_TESTING": "kowb-elite-android-weatherbug-development-u9v"
+      },
+      {
+        "KEY_FF_ENABLE_FIRE_BASE_ANALYTICS": "ON"
+      },
+      {
+        "CACHE_GET_COUNTRY_IP": "48"
+      },
+      {
+        "FF_ENABLE_OPENSIGNAL": "ON"
+      },
+      {
+        "FF_ENABLE_ABOUT_OPENSIGNAL": "ON"
+      },
+      {
+        "Mapbox_Access_Token": "pk.eyJ1IjoiZWFydGhuZXR3b3JrcyIsImEiOiJjamtlOXJ0bjIzOHpwM3dreW1qZ251dTI0In0.tHgu-4NAUCTy9cGUUwvLRQ"
+      },
+      {
+        "MIN_LAYER_OPACITY":"51"
+      },
+      {
+        "DEFAULT_LAYER_OPACITY":"150"
+      },
+      {
+        "FF_ENABLE_AMAZON_HEADER": "ON"
+      },
+      {
+        "AD_REQUEST_INTERVAL": "3000"
+      },
+      {
+        "DATA_COMPLIANCE_EXPIRY": "24"
+      },
+      {
+        "FF_ENABLE_ARITY": "ON"
+      },
+      {
+        "FF_ENABLE_ARITY_TESTING": "OFF"
+      },
+      {
+        "ARITY_AD_TRIP_COUNTER": "50"
+      },
+      {
+        "FF_ENABLE_FIREBASE_SESSION_TIMEOUT": "ON"
+      },
+      {
+        "FIREBASE_SESSION_TIMEOUT_DURATION": "1000"
+      },
+      {
+        "FF_ENABLE_SUBSCRIPTION": "ON"
+      },
+      {
+        "PRE_ROLL_AD_SKIP_OFFSET": "5000"
+      },
+      {
+        "FF_WEWD_PRE_ROLL_ADS_ENABLED": "ON"
+      },
+      {
+        "FF_WEATHER_NEWS_PRE_ROLL_ADS_ENABLED": "ON"
+      },
+      {
+        "PRE_ROLL_AD_SOURCE": "VAST"
+      },
+      {
+        "PLAYER_CONFIG_ASPECT_RATIO": "UNIFORM"
+      },
+      {
+        "PRE_ROLL_AD_FREQUENCY": "3"
+      },
+      {
+        "FML_FETCH_TIMEOUT": "5000"
+      },
+      {
+        "BG_LOCATION_UPDATE_DISPLACEMENT": "1000"
+      },
+      {
+        "BG_LOCATION_UPDATE_PRIORITY": "102"
+      },
+      {
+        "BG_LOCATION_UPDATE_FASTEST_INTERVAL": "15"
+      },
+      {
+        "FF_ENABLE_NIMBUS": "ON"
+      },
+      {
+        "AMAZON_BID_EXPIRY_MINUTES": "10"
+      },
+      {
+        "NIMBUS_BID_EXPIRY_MINUTES": "10"
+      },
+      {
+        "APP_NEXUS_BID_TIMEOUT_MILLIS": "750"
+      },
+      {
+        "NIMBUS_BID_TIMEOUT_MILLIS": "750"
+      },
+      {
+        "NIMBUS_PUBLISHER_KEY": "weatherbug"
+      },
+      {
+        "NIMBUS_API_KEY": "5b493fb0-9b64-463b-a514-c1fe19c4329d"
+      },
+      {
+        "NIMBUS_END_POINT": "https://weatherbug.adsbynimbus.com/rta/v1"
+      },
+      {
+        "FF_ENABLE_AN_MEDIATION": "ON"
+      },
+      {
+        "KEY_PERMISSION_SHOW_DELAY_DAYS": "7,14,60"
+      },
+      {
+        "FF_ENABLE_RN_PERMISSION_FLOW": "ON"
+      },
+      {
+        "FF_ENABLE_RN_SETTINGS_FLOW": "ON"
+      },
+      {
+        "AD_CONFIG_DOWNLOAD_FREQUENCY": "12"
+      },
+      {
+        "FF_ENABLE_TRAFFIC_CAM_CACHE_IMAGE": "OFF"
+      },
+      {
+        "HOURLY_FORECAST_FIRST_HOUR_TTL": "150"
+      },
+      {
+        "HOURLY_FORECAST_SECOND_THIRD_HOUR_TTL": "300"
+      },
+      {
+        "HOURLY_FORECAST_REMAINING_HOUR_TTL": "900"
+      },
+      {
+        "PERMISSION_DIALOG_GAP_MS": "1209600000"
+      },
+      {
+        "PERMISSION_DIALOG_REPEATS": "2"
+      },
+      {
+        "FF_ENABLE_MAP_VIEW": "ON"
+      },
+      {
+        "FF_ENABLE_RN_MAP_TAB": "ON"
+      },
+      {
+        "FF_ENABLE_RN_HOURLY_TAB": "ON"
+      },
+      {
+        "FF_ENABLE_RN_TEN_DAY_TAB": "ON"
+      },
+      {
+        "FF_ENABLE_COMMUTER_CONDITIONS_TAB": "ON"
+      },
+      {
+        "CLOG_MAX_PAYLOAD_KILOBYTES": "50"
+      },
+      {
+       "CLOG_EVENTS_TO_FORWARD": "app.page.load,video.started,video.paused,video.played,video.completed"
+      },
+      {
+       "FF_GOOGLE_ANALYTICS_ENABLED" : "OFF"
+      },
+      {
+        "FF_ENABLE_ROAD_ALERTS_SETTING": "ON"
+      },
+      {
+        "FF_ENABLE_WB_CLIENT_FALLBACK_ALERTS": "OFF"
+      },
+      {
+        "FF_ENABLE_AD_LOCATION": "ON"
+      },
+      {
+        "HOME_SCREEN_WIDGET_REFRESH_MINUTES": "15"
+      },
+      {
+          "SCREEN_UNLOCK_REFRESH_INTERVAL_MINUTES": "30"
+      },
+      {
+        "FF_ENABLE_AD_IMPRESSION_COUNT": "ON"
+      },
+      {
+        "RN_NOW_EXPIRE_TTL_SECOND": "300"
+      },
+      {
+        "RN_HOURLY_EXPIRE_TTL_SECOND": "300"
+      },
+      {
+        "RN_DAILY_EXPIRE_TTL_SECOND": "300"
+      },
+      {
+       "RN_MAPS_TAB_EXPIRE_TTL_SECOND": "300"
+      },
+      {
+        "MAP_LAYER_MAX_ANIMATION_FRAMES": "6"
+      },
+      {
+        "FF_ENABLE_CLOG_GZIP": "ON"
+      },
+      {
+        "FF_ENABLE_BAD_CONNECTION_UX": "ON"
+      },
+      {
+        "MAX_POOR_BANDWIDTH_KBPS": "150"
+      },
+      {
+        "MAX_MODERATE_BANDWIDTH_KBPS": "550"
+      },
+      {
+        "MAX_GOOD_BANDWIDTH_KBPS": "2000"
+      },
+      {
+        "BID_MACHINE_SELLER_ID": "193"
+      },
+      {
+        "FF_ENABLE_BID_MACHINE": "ON"
+      },
+      {
+        "FF_ENABLE_RATE_MY_APP": "OFF"
+      },
+      {
+        "FF_ENABLE_RN_WEATHER_NEWS": "OFF"
+      },
+      {
+        "KEY_DELETE_ACCOUNT_DEBUG_ENABLED": "OFF"
+      },
+      {
+        "FF_ENABLE_MY_ACCOUNT": "ON"
+      },
+      {
+        "FF_ENABLE_OUTDOOR_SPORTS": "ON"
+      },
+      {
+        "FF_ENABLE_COMMUTER_OFFERS": "ON"
+      },
+      {
+        "FF_DEMO_COMMUTER_OFFERS_AD": "OFF"
+      },
+      {
+        "FF_ENABLE_PULLTOREFRESH_TOOLTIP": "ON"
+      },
+      {
+        "ARITY_CLIENT_ID": "Ic2UuOk909acXWGjqZUUAJDaLtpI8ZgO"
+      },
+      {
+        "ARITY_CLIENT_SECRET": "UTA7J4uct20yvQU2"
+      },
+      {
+        "ARITY_DEBUG_CLIENT_ID": "Q3gHIxJz95xf5TIcWcHJ6AUfMnJ3GvQv"
+      },
+      {
+        "ARITY_DEBUG_CLIENT_SECRET": "5K2a5pgUNl8Akns2"
+      },
+      {
+        "FF_ENABLE_RN_IAP": "ON"
+      },
+      {
+        "IAP_PROMPT_COUNT": "3"
+      },
+      {
+        "FF_ENABLE_IAP_PROMPT": "ON"
+      },
+      {
+        "APPNEXUS_MEMBER_ID": "3542"
+      },
+      {
+        "FF_TEMPEST_BANNER_ADVERTISEMENT_IS_VISIBLE": "OFF"
+      },
+      {
+        "FF_ENABLE_SUB_DOMAIN_DEEP_LINK": "ON"
+      },
+      {
+        "FF_ENABLE_PWS_ALL_STATIONS_FLOW": "ON"
+      },
+      {
+        "FF_ENABLE_PWS_NOW": "OFF"
+      },
+      {
+        "FF_ENABLE_ALERT_TRAY_OPTIMIZATION": "ON"
+      },
+      {
+        "FF_ENABLE_PWS_LOCATION_MANAGER": "OFF"
+      },
+      {
+        "FF_ENABLE_MOENGAGE": "ON"
+      },
+      {
+        "FF_ENABLE_MOENGAGE_PUSH": "ON"
+      },
+      {
+        "MOENGAGE_APP_ID": "7QNF5FR1333IGGL32RJVCAL7"
+      },
+      {
+        "FF_ENABLE_BRAZE": "ON"
+      },
+      {
+        "BRAZE_API_KEY": "736c0693-ac4f-43ea-9e45-cf34f5e53c55"
+      },
+      {
+        "BRAZE_END_POINT": "sdk.iad-07.braze.com"
+      },
+      {
+        "FIREBASE_SENDER_ID": "379107385702"
+      },
+      {
+        "FF_ENABLE_BRAZE_RATE_MY_APP": "OFF"
+      },
+      {
+        "JWPLAYER_LICENSE_KEY": "ruZPb05PkSLBLQg/xs+XMxd7QGIPtE1GL74NhUWw6qtBC5ZK"
+      },
+      {
+        "FF_V2_HURRICANE" : "ON"
+      },
+      {
+        "FF_V2_MULTIPLE_HURRICANE_TOOLTIP" : "ON"
+      },
+      {
+        "FF_V2_HURRICANE_SPONSORSHIP_LOGO" : "OFF"
+      },
+      {
+        "FF_CRASHLYTICS_NON_FATAL_LOGGING" : "OFF"
+      },
+      {
+        "FF_DISNEY_WEATHER_OUTDOOR_SPORTS" : "ON"
+      },
+      {
+        "FF_FIREBASE_REMOTE_CONFIG_ENABLED" : "ON"
+      },
+      {
+        "FF_NOW_SCREEN_INSTREAM_BANNER_AD_ENABLED" : "OFF"
+      },
+      {
+        "CONFIG_UPDATE_INTERVAL_TIME_MINUTES" : "360"
+      },
+      {
+        "MAP_ANIMATION_AD_REFRESH_INDEX" : "4"
+      },
+      {
+        "TABOOLA_USER_ID_TTL_DAYS": "90"
+      },
+      {
+        "FF_ENABLE_FREE_TRIAL_SURVEY": "OFF"
+      },
+      {
+        "FREE_TRIAL_SURVEY_API_KEY": "a064f341-8873-4eb5-bd4c-e81bd91f89de"
+      },
+      {
+        "FF_ENABLE_MOENGAGE_RATE_MY_APP": "ON"
+      },
+      {
+        "FF_ENABLE_RN_MAP_SLIDER": "ON"
+      },
+      {
+        "FF_ENABLE_SUBSCRIPTION_TOKEN_API": "ON"
+      },
+      {
+        "FF_ENABLE_CLIP_CENTRIC": "ON"
+      },
+      {
+        "FF_ENABLE_RN_MAP_VECTOR": "OFF"
+      },
+      {
+        "SURVEY_BUTTON_TITLE": "UNLOCK AD-FREE EXPERIENCE"
+      },
+      {
+        "SURVEY_HEADING" : "Upgrade Your\nWeatherBug Experience"
+      },
+      {
+        "SURVEY_SUB_HEADING" : "Remove ads and enjoy WeatherBug's best features with no distractions."
+      },
+      {
+        "SURVEY_WELCOME_PAGE_HEADING" : "A New Way To Unlock WeatherBug Ad-Free."
+      },
+      {
+        "SURVEY_WELCOME_PAGE_SUB_HEADING_1" : "Answer demographic questions to get matched with surveys"
+      },
+      {
+        "SURVEY_WELCOME_PAGE_SUB_HEADING_2" : "Completed surveys get you 2 weeks of WeatherBug ad-free!"
+      },
+      {
+        "SURVEY_WELCOME_PAGE_SUB_HEADING_3" : "New surveys are available daily"
+      },
+      {
+        "SURVEY_THANK_YOU_HEADING_SUCCESS" : "Survey Complete! Forecast Calls For No Ads!"
+      },
+      {
+        "SURVEY_THANK_YOU_SUB_HEADING_SUCCESS_1" : "You have completed the survey and unlocked 2 weeks of WeatherBug ad-free."
+      },
+      {
+        "SURVEY_THANK_YOU_SUB_HEADING_SUCCESS_2" : "Your subscription may take up to 24 hours to start. Thank You!"
+      },
+      {
+        "SURVEY_THANK_YOU_SUB_HEADING_SUCCESS_3" : "If you have any questions, please get in touch with us."
+      },
+      {
+        "SURVEY_THANK_YOU_PAGE_HEADING_USER_NOT_ELIGIBLE" : "It’s Not You, It’s Us!"
+      },
+      {
+        "SURVEY_THANK_YOU_SUB_HEADING_USER_NOT_ELIGIBLE_1" : "We couldn't find a matching survey\nright now. But don't worry,\nnew surveys are available daily."
+      },
+      {
+        "SURVEY_THANK_YOU_SUB_HEADING_USER_NOT_ELIGIBLE_2" : "Please try again later."
+      },
+      {
+        "FF_BG_LOCATION_PERMISSION_REQUEST_USER_FLOW": "OFF"
+      },
+      {
+        "FIREBASE_AB_KEYS": "enable_onboarding_user_flow, enable_free_trial_survey, boltive_ad_filter_enabled, location_updates_enabled"
+      },
+      {
+        "FF_PLACER_AI_SDK": "ON"
+      },
+      {
+        "PLACER_AI_APP_KEY": "bd23fef9be8d2f2032edd25224964661"
+      },
+      {
+        "KEY_BG_LOCATION_PERMISSION_SHOW_DELAY_DAYS": "0,30,60,90"
+      },
+      {
+        "FF_ENABLE_PREMIUM": "ON"
+      },
+      {
+        "FF_ENABLE_BOLTIVE": "ON"
+      }
+    ]
+  }
+}
