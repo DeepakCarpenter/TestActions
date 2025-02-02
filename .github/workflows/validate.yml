@@ -20,7 +20,7 @@ jobs:
       - name: Find Changed JSON Files
         id: changed-files
         run: |
-          JSON_FILES=$(git diff --name-only origin/master HEAD | grep '\.json$' || true)
+          JSON_FILES=$(git diff --name-only origin/main HEAD | grep '\.json$' || true)
           echo "CHANGED_JSON_FILES<<EOF" >> $GITHUB_ENV
           echo "$JSON_FILES" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -66,7 +66,7 @@ jobs:
   upload-to-aws:
     name: Upload JSON to AWS
     needs: validate-json
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
