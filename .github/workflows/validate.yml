@@ -39,7 +39,7 @@ jobs:
         if: failure() && github.event_name == 'pull_request'
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           script: |
             const { owner, repo, number } = context.issue;
             github.rest.issues.createComment({
@@ -53,7 +53,7 @@ jobs:
         if: success() && github.event_name == 'pull_request'
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           script: |
             const { owner, repo, number } = context.issue;
             github.rest.issues.createComment({
