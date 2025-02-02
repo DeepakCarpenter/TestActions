@@ -1,0 +1,103 @@
+name: JSON Validation and AWS Upload
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_review:
+    types: [submitted]
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-json:
+    name: Validate JSON Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Find Changed JSON Files
+        id: changed-files
+        run: |
+          JSON_FILES=$(git diff --name-only origin/master HEAD | grep '\.json$' || true)
+          echo "CHANGED_JSON_FILES<<EOF" >> $GITHUB_ENV
+          echo "$JSON_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Validate JSON Files
+        if: env.CHANGED_JSON_FILES != ''
+        run: |
+          echo "Validating JSON files..."
+          for file in $CHANGED_JSON_FILES; do
+            echo "Checking: $file"
+            jq empty "$file" || exit 1
+          done
+          echo "✅ All JSON files are valid!"
+
+      - name: Post Failure Message to PR
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: number,
+              body: "❌ JSON validation failed! Please fix errors before merging."
+            });
+
+      - name: Post Success Message to PR
+        if: success() && github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: number,
+              body: "✅ JSON validation passed! Ready for merge."
+            });
+
+  upload-to-aws:
+    name: Upload JSON to AWS
+    needs: validate-json
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Find Changed JSON Files
+        id: changed-files
+        run: |
+          JSON_FILES=$(git diff --name-only HEAD~1 HEAD | grep '\.json$' || true)
+          echo "CHANGED_JSON_FILES<<EOF" >> $GITHUB_ENV
+          echo "$JSON_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: your-region
+
+      - name: Upload JSON Files to S3
+        if: env.CHANGED_JSON_FILES != ''
+        run: |
+          for file in $CHANGED_JSON_FILES; do
+            echo "Uploading: $file to S3"
+            aws s3 cp "$file" "s3://your-bucket-name/path/to/configs/$file"
+          done
+
+      - name: Send Slack Notification
+        if: env.CHANGED_JSON_FILES != ''
+        run: |
+          MESSAGE="AWS Upload Complete:\n$CHANGED_JSON_FILES"
+          curl -X POST -H 'Content-type: application/json' --data '{"text": "'"$MESSAGE"'"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+
